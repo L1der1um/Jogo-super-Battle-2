@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESCOLHA UMA OPÇÃO"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/uni"/>
+
+    <Button
+        android:id="@+id/dificuldade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SELECIONAR DIFICULDADE"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/sobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SOBRE O JOGO"
+        android:textSize="30sp"
+        android:layout_marginBottom="40dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/battle"/>
+
+
+
+</LinearLayout>

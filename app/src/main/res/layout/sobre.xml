@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="SOBRE O JOGO"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Este jogo foi criado por Matheus Henrique de Oliveira mediante os ensinamentos do professor Publio Elson Correa da Silva. O jogo consiste em duas pessoas clicarem na tela para ganharem pontuação para seu personagem, existe um sistema de dificuldade o qual basicamente aumenta ou diminuí a vida do inimigo"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="O jogo termina quando o Jogador ou o Inimigo chegar até 10 pontos. O primeiro a atacar ganha o primeiro ponto!"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/voltarInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        android:textSize="18sp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
